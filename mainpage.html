@@ -1,0 +1,132 @@
+<!doctype:html>
+<html>
+    <head>
+        <title>DJ Nick</title>
+        <link rel="shortcut icon" type="image/png" href="https://media.discordapp.net/attachments/482969020451127319/494149211332542465/DJ_NICK.jpg"/>
+        <meta charset="UTF-8">
+        <!--autoembed-->
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="DJ Nick">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:url" content="">
+        <!--END autoembed END-->
+        <link rel="apple-touch-icon" href="">
+        <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "Organization",
+              "name": "DELUUXE",
+              "url": "https://www.deluuxe.nl/",
+              "email": "info@deluuxe.nl"
+            }
+        </script>
+        <meta name="description" content="Official website from DELUUXE, here you can find my discordbot's, discordchroma, etc." />
+        <meta name="keywords" content="DELUXE, DELUUXE, deluuxe, deluxe, luuk, gaming, youtube, github, developer, 24/7musicbot, 24/7bot, 24/7, discordbot, discord, ᗪᕮᒪᑌᑌ᙭ᕮ, musicbot, iloveradio, ilovemashup, radiohamburg, radio, discord radio, javascript, deluuxe.nl, YGS">
+        <!--<script src="D:\SCHOOL\github\DELUUXE-website\bowser-master\bowser-master\src\useragents.js"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="console.image.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script>
+            document.onkeydown = function(e) {
+                if(event.keyCode == 123) {
+                    return false;
+                }
+                if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0) || e.ctrlKey && e.shiftKey && e.which == 'I'.charCodeAt(0)){
+                    return false;
+                }
+                if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0) || e.ctrlKey && e.shiftKey && e.which == 'J'.charCodeAt(0)){
+                    return false;
+                }
+                if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0) || e.ctrlKey && e.which == 'U'.charCodeAt(0)){
+                    return false;
+                }
+            }
+            $(document).keydown(function(e){
+                if(e.keyCode == 123) {
+                    return false;
+                }
+                if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0) || e.ctrlKey && e.shiftKey && e.which == 'I'.charCodeAt(0)){
+                    return false;
+                }
+                if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0) || e.ctrlKey && e.shiftKey && e.which == 'J'.charCodeAt(0)){
+                    return false;
+                }
+                if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0) || e.ctrlKey && e.which == 'U'.charCodeAt(0)){
+                    return false;
+                }
+            });
+        </script>
+    </head>
+
+    <body oncontextmenu="return false;">
+        <!--<video id="video" autoplay muted>
+            <source src="img/vid1.mp4" type="video/mp4">
+        </video>
+        <script>
+            if(localStorage.getItem("Video")){
+                var video = localStorage.getItem("Video");
+                if(video=="true"){
+                    document.getElementById("video").style.display = "none";
+                }
+            }
+            $("#video").on("ended", function() {
+                $('#video').fadeOut(1000);
+                if(!localStorage.getItem("Video")){
+                    localStorage.setItem("Video", true);
+                }
+            });
+        </script>-->
+
+        <!--<script src="https://www.w3schools.com/lib/w3.js"></script>
+        <div w3-include-html="https://deluuxe.nl/nav.html"></div>
+        <script>
+            w3.includeHTML();
+        </script>-->
+
+        <header>
+
+<div class="container">
+        <a href="mainpage.html"><img class="headlogo" src="https://media.discordapp.net/attachments/482969020451127319/494149211332542465/DJ_NICK.jpg"></a>
+        </div>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discord.html">Info</a></li>
+                </ul>
+            </div>
+            </header>
+            
+            
+
+        
+        <br>
+        <!--<div class="buttons">
+            <a href="./24-7musicbot/index.html">
+                <button class="button" style="vertical-align:middle"><span>24/7 - discord bot</span></button>
+            </a>
+            <a href="steam.html">
+                    <button class="button" style="vertical-align:middle"><span>steam</span></button>
+                </a>
+            <a href="discordchroma.html">
+                <button class="button" style="vertical-align:middle"><span>discordchroma</span></button>
+            </a>
+        </div>-->
+        <script>
+            var colors = ["#ff0000","#ff8700","#f0ff00","#5eff00", "#0088ff","#0088ff","#5900ff","#FF00EA"];
+            $('.navigation a').mouseenter(function() {
+                var rand = colors[Math.floor(Math.random() * colors.length)];
+                $(this).css('color', rand);
+            });
+            $('.navigation a').mouseleave(function() {
+                $(this).css('color', '');
+            });
+        </script>
+        <footer>
+            <p>&copy; 2018 Nick</p>
+        </footer>
+        </div>
+    </body>
+</html>
