@@ -4,7 +4,27 @@
         <title>TEST</title>
         <body>
         <style>
-
+#fixedHeader{
+    display: flex;
+    position:fixed;
+	background: cover;
+    background: linear-gradient(145deg, #aa1313, #aa1370,  #1181b6, #20aa13, #aa5713);
+    background-size: 400% 4000%;
+    /*background: #1366aa;*/
+    color:white;
+    width: 100vw;
+    height: 0px;
+    -webkit-animation: RGBbackground 100s ease infinite;
+    -moz-animation: RGBbackground 100s ease infinite;
+    animation: RGBbackground 100s ease infinite;
+    flex-direction: row;
+    top: 65px;
+    opacity: 0;
+    z-index: 50;
+    vertical-align: middle;
+    border-bottom: solid 1px #fff;
+    transition-duration: 100ms;
+}
             #bg {	
 	position:fixed;
 	background: cover;
@@ -37,7 +57,7 @@
 }
             
         </style>
-           <div id="bg">
+           <div id="fixedHeader">
             </body>
             </head>
             </html>
