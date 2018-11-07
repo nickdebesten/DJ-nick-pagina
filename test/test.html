@@ -9,6 +9,21 @@
                 background-size: 400% 400%;
                 animation: RGBbackground 2s ease infinite;
             }
+            #bg {	
+	position:fixed;
+	background: cover;
+    background: linear-gradient(145deg, #aa1313, #aa1370,  #1181b6, #20aa13, #aa5713);
+    background-size: 400% 400%;
+    /*background: #1366aa;*/
+    width: 100vw;
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+    z-index: -2;
+    -webkit-animation: RGBbackground 100s ease infinite;
+    -moz-animation: RGBbackground 100s ease infinite;
+    animation: RGBbackground 100s ease infinite;
+}
 @-webkit-keyframes RGBbackground {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
@@ -26,6 +41,7 @@
 }
             
         </style>
+           <div id="bg">
             </body>
             </head>
             </html>
