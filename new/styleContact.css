@@ -1,0 +1,192 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    
+    body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+    }
+    
+    header {
+      width: 100%;
+      height: 100vh;
+      background: url(foto.jpg) no-repeat 50% 50%;
+      background-size: cover;
+    }
+    
+    .content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+    }
+    
+    .logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+    
+    nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+    }
+    
+    nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+    }
+    
+    nav.black ul {
+      background: #000;
+    }
+    nav.black ul li:hover {
+      background: gray
+    }
+    
+    nav ul li:hover {
+      background: rgb(189, 182, 182);
+    }
+    nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+    }
+    
+    .menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+    }
+    
+    @media(max-width: 786px) {
+    
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+    
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+    
+      nav.black ul {
+            background: #000;
+      }
+    
+      .showing {
+            max-height: 34em;
+      }
+    
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+      nav ul li:hover { 
+            background: gray;
+    }
+    
+      .menu-icon {
+            display: block;
+      }
+    
+    }
+    body {
+      margin: 0;
+    }
+    
+    footer {
+      background-color: white;
+      height: 300px;
+      text-align: center;
+    }
+    
+    .social-buttons {
+      display: flex;
+      justify-content: center;
+    }
+    
+    i.fa {
+      flex: 1;
+      margin: 20px;
+      padding-top: 15px;
+      width: 80px;
+      height: calc(80px - 15px);
+      background-color: white;
+      border-radius: 50%;
+      font-size: 50px;
+      transition-duration: 0.5s;
+    }
+    i.fa:hover {
+      -webkit-transform: scale(1.2, 1.2);
+              transform: scale(1.2, 1.2);
+      color: white;
+    }
+    
+    i.fa-twitter {
+      color: cornflowerblue;
+    }
+    i.fa-twitter:hover {
+      background-color: cornflowerblue;
+    }
+    
+    i.fa-facebook {
+      color: midnightblue;
+    }
+    i.fa-facebook:hover {
+      background-color: midnightblue;
+    }
+    
+    i.fa-google-plus {
+      color: crimson;
+    }
+    i.fa-google-plus:hover {
+      background-color: crimson;
+    }
+    
+    i.fa-instagram {
+      color: rgb(139, 19, 123);
+    }
+    i.fa-instagram:hover {
+      background-color: rgb(139, 19, 123);
+    }
+    
+    i.fa-github {
+      color: dodgerblue;
+    }
+    i.fa-github:hover {
+      background-color: dodgerblue;
+    }
+    
