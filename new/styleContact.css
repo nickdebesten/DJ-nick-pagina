@@ -62,7 +62,7 @@ html, body {
     }
     
     nav ul li:hover {
-      background: rgb(189, 182, 182);
+      background: black;
     }
     nav ul li {
       display: inline-block;
