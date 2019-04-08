@@ -152,7 +152,7 @@ nav ul li a {
     i.fa:hover {
       -webkit-transform: scale(1.2, 1.2);
               transform: scale(1.2, 1.2);
-      color: white;
+      /*color: white; */
     }
     
     i.fa-twitter {
