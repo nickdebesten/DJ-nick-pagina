@@ -189,4 +189,11 @@ html, body {
     i.fa-github:hover {
       background-color: dodgerblue;
     }
+      i.fa-whatsapp {
+            color:rgb(139, 19, 123);
+}
+i.fa-whatsapp:hover {
+background-color: rgb(139, 19, 123);
+}
+
     
