@@ -131,11 +131,11 @@ nav ul li a {
       background-color: white;
       height: 300px;
       text-align: center;
-      display: flex;
+      
     }
     
     .social-buttons {
-      display: flex;
+      display: center;
       justify-content: center;
     }
     
