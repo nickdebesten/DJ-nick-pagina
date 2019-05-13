@@ -136,7 +136,7 @@ nav ul li a {
     
     .social-buttons {
       display: flex;
-      justify-content: flex-end;
+      justify-content: center;
     }
     
     i.fa {
