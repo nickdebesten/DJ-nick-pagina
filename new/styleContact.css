@@ -145,7 +145,6 @@ nav ul li a {
       padding-top: 15px;
       width: 80px;
       height: calc(80px - 15px);
-      background-color: white;
       border-radius: 50%;
       font-size: 50px;
       transition-duration: 0.5s;
