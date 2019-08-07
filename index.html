@@ -1,70 +1,48 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <meta name = "yandex-verification" content = "a53ef656eb05d288" />
-      <title>START</title>
-      <link rel="shortcut icon" href="http://www.iconj.com/ico/l/j/lj6889wp1d.ico" type="image/x-icon">    <meta name="description" content="dj-nick.ga">
-        <style type="text/css">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>NAAM BOVEN IN JE BROWSERBIJV: INLOG</title><!--als je dit al gedaan hebt met een ander script laat je het leeg-->
+<script language="javascript">
 
-            body {
-                background: linear-gradient(132deg, #0032ff, #f50000);
-                background-size: 400% 400%;
-                animation: BackgroundGradient 2s ease infinite;
-            }
+/*Dit script verplicht de bezoekers een password en ID in te vullen alvorens de pagina te kunnen opvragen*/
+function pasuser(form) {
+    let login = require("./password.json")
+let username = login.username
+let password= login.password
+//verander hier onder je eigen ID
+if (form.id.value==username) { 
+    
+//verander hier onder je eigen logincode
+if (form.pass.value==password) { 
+//verander hier onder de pagina waarna je doorgelinkt moet worden na een correcte inlog
+location="https://www.google.com" 
+} else {
+alert("Verkeerd wachtwoord, Probeer het opnieuw")
+}
+} else { alert("Verkeerd wachtwoord, Probeer opnieuw")
+}
+}
+//
+</script>
 
-            @keyframes BackgroundGradient {
-                0% {background-position: 0% 50%;}
-                50% {background-position: 100% 50%;}
-                100% {background-position: 0% 50%;}
-            }
-            h1 {
-                position: absolute;
-                left: 48%;
-                top: 40%;
-                transform: translateX(-50%) translateY(-50%);
-                font-family: Open Sans, sans-serif;
-                color: #fff;
-                font-weight: 400;
-                text-transform: uppercase;
-                text-align: center;
-                font-size: 2em;
-                background-color: #000;
-                padding: 5px;
-            }
+</head>
 
-            .button {
-              position: absolute;
-              left: 60%;
-              top: 40%;
-              display: inline-block;
-              border-radius: 4px;
-              background-color: #ffffff;
-              border: 5px solid #000;
-              color:#000;
-              text-align: center;
-              font-size: 40px;
-              padding: 20px;
-              width: auto;
-              margin: 5px;
-              font-family: 'font1';
-              border-radius: 15px;
-              box-shadow: 0 9px #ffffff;
-              transition: 0.1s ease-in-out;
-            }
+<body bgcolor="#000000" text="#00FF00" link="#CCFFCC" vlink="#008000">
 
+<center>
+<table bgcolor="#FFFFFF" cellpadding="4" border="1">
+<tr><td colspan="2" align="center" height="22" width="282"><p><font size="3" color="#000000">Login
+Area</font></p></td></tr>
+<tr><td align="center" height="24" width="84"><p><font size="3" color="#000000">User ID:</font></p></td><td align="center" height="24" width="170"><form name="login"><font size="3" color="#000000"><input
+name="id" type="text"></font></td></tr>
+<tr><td align="center" height="24" width="84"><p><font size="3" color="#000000">Password:</font></p></td><td align="center" height="24" width="170"><font size="3" color="#000000"><input name="pass"
+type="password"></font></td></tr>
+<tr><td align="center" height="1" width="84"><font size="3"><input type="button" value="Login"
+onClick="pasuser(this.form)"></font></td><td align="center" height="1" width="170"><font size="3"><br><input
+type="Reset"></form></font></td></tr></table></center> 
+<a href="http://blablo.nl">Mede mogelijk gemaakt door Marcel van blablo.nl</a>
+</body>
 
-        </style>
-    </head>
-    <body>
-
-        <h1>Nieuwe Pagina komt er aan.</h1>
-<!--<div class="button">
-
-  <a href="./error/index.html">Home</a>-->
-
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script type="text/javascript"></script>
-
-    </body>
 </html>
