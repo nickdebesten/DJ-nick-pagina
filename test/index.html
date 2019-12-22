@@ -1,135 +1,190 @@
-<!doctype:html>
-<html>
-    <head>
-        <title>DJ Nick</title>
-        <link rel="shortcut icon" type="image/png" href="https://media.discordapp.net/attachments/482969020451127319/494149211332542465/DJ_NICK.jpg"/>
-        <meta charset="UTF-8">
-        <!--autoembed-->
-        <meta property="og:locale" content="nl">
-        <meta property="og:type" content="article">
-        <meta property="og:title" content="DJ Nick">
-        <meta property="og:description" content="Hier vindt je alles over DJ Nick!">
-        <meta property="og:image" content="http://djnick.ga/new/foto.jpg">
-        <meta property="og:image:secure_url" content="http://djnick.ga/new/foto.jpg" />
-        <meta property="og:url" content="https://dj-nick.ga">
-        <!--END autoembed END-->
-        <link rel="apple-touch-icon" href="djnick.ga">
-        <script type="application/ld+json">
-            {
-              "@context": "http://schema.org",
-              "@type": "Organization",
-              "name": "DJ Nick",
-              "url": "htpps://djnick.ga",
-              "email": "info@dj-nickemail.ga"
-            }
-        </script>
-        <meta name="description" content="hier vindt je alles over DJ Nick." />
-        <meta name="keywords" content="DJ Nick, www.djnick.ga">
-        <!--<script src="D:\SCHOOL\github\DELUUXE-website\bowser-master\bowser-master\src\useragents.js"></script>-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="style.css"/>
-        <script src="console.image.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <script>
-            document.onkeydown = function(e) {
-                if(event.keyCode == 123) {
-                    loadURL("https://djnick.ga/new");
-                }
-                if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0) || e.ctrlKey && e.shiftKey && e.which == 'I'.charCodeAt(0)){
-                    return false;
-                }
-                if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0) || e.ctrlKey && e.shiftKey && e.which == 'J'.charCodeAt(0)){
-                    return false;
-                }
-                if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0) || e.ctrlKey && e.which == 'U'.charCodeAt(0)){
-                    return false;
-                }
-            }
-            $(document).keydown(function(e){
-                if(e.keyCode == 123) {
-                    return false;
-                }
-                if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0) || e.ctrlKey && e.shiftKey && e.which == 'I'.charCodeAt(0)){
-                    return false;
-                }
-                if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0) || e.ctrlKey && e.shiftKey && e.which == 'J'.charCodeAt(0)){
-                    return false;
-                }
-                if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0) || e.ctrlKey && e.which == 'U'.charCodeAt(0)){
-                    return false;
-                }
-            });
-        </script>
-    </head>
+<!doctype html>
+<html class="staticrypt-html">
+<head>
+    <meta charset="utf-8">
+    <title>Dj Nick</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <body oncontextmenu="return false;">
-        <!--<video id="video" autoplay muted>
-            <source src="img/vid1.mp4" type="video/mp4">
-        </video>
-        <script>
-            if(localStorage.getItem("Video")){
-                var video = localStorage.getItem("Video");
-                if(video=="true"){
-                    document.getElementById("video").style.display = "none";
-                }
-            }
-            $("#video").on("ended", function() {
-                $('#video').fadeOut(1000);
-                if(!localStorage.getItem("Video")){
-                    localStorage.setItem("Video", true);
-                }
-            });
-        </script>-->
+    <!-- do not cache this page -->
+    <meta http-equiv="cache-control" content="max-age=0"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
+    <meta http-equiv="pragma" content="no-cache"/>
 
-        <!--<script src="https://www.w3schools.com/lib/w3.js"></script>
-        <div w3-include-html="https://deluuxe.nl/nav.html"></div>
-        <script>
-            w3.includeHTML();
-        </script>-->
+    <style>
+        .staticrypt-hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 1px solid #eee;
+        }
 
-        <header>
+        .staticrypt-page {
+            width: 360px;
+            padding: 8% 0 0;
+            margin: auto;
+            box-sizing: border-box;
+        }
 
-<div class="container">
-        <a href="mainpage.html"><img class="headlogo" src="https://media.discordapp.net/attachments/482969020451127319/494149211332542465/DJ_NICK.jpg"></a>
+        .staticrypt-form {
+            position: relative;
+            z-index: 1;
+            background: #FFFFFF;
+            max-width: 360px;
+            margin: 0 auto 100px;
+            padding: 45px;
+            text-align: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+
+        .staticrypt-form input {
+            outline: 0;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        .staticrypt-form .staticrypt-decrypt-button {
+            text-transform: uppercase;
+            outline: 0;
+            background: #1dbcd1;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
+            background: #43A047;
+        }
+
+        .staticrypt-html {
+            height: 100%;
+        }
+
+        .staticrypt-body {
+            margin-bottom: 1em;
+            background: #1dbcd1; /* fallback for old browsers */
+          /*  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+            background: -moz-linear-gradient(right, #76b852, #8DC26F);
+            background: -o-linear-gradient(right, #76b852, #8DC26F);
+            background: linear-gradient(to left, #76b852, #8DC26F);*/
+            font-family: "Arial", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .staticrypt-instructions {
+            margin-top: -1em;
+            margin-bottom: 1em;
+        }
+
+        .staticrypt-title {
+            font-size: 1.5em;
+        }
+
+        .staticrypt-footer {
+            position: fixed;
+            height: 20px;
+            font-size: 16px;
+            padding: 2px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-bottom: 0;
+        }
+
+        .staticrypt-footer p {
+            margin: 2px;
+            text-align: center;
+            float: right;
+        }
+
+        .staticrypt-footer a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body class="staticrypt-body">
+<div class="staticrypt-page">
+    <div class="staticrypt-form">
+        <div class="staticrypt-instructions">
+            <p class="staticrypt-title">DJ Nick</p>
+            <p></p>
         </div>
-                <ul class="navigation">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./info.html">Info</a></li>
-                </ul>
-            </div>
-            </header>
-            <div class="container">
-                <h1>Welkom op de pagina van DJ Nick.<br>
-                Hier vindt je informatie over DJ Nick en nog veel meer!<br>
-                neem de tijd en kijk wat rond</h1>
-        
 
-        
-        <br>
-        <!--<div class="buttons">
-            <a href="./24-7musicbot/index.html">
-                <button class="button" style="vertical-align:middle"><span>24/7 - discord bot</span></button>
-            </a>
-            <a href="steam.html">
-                    <button class="button" style="vertical-align:middle"><span>steam</span></button>
-                </a>
-            <a href="discordchroma.html">
-                <button class="button" style="vertical-align:middle"><span>discordchroma</span></button>
-            </a>
-        </div>-->
-        <script>
-            var colors = ["#ff0000","#ff8700","#f0ff00","#5eff00", "#0088ff","#0088ff","#5900ff","#FF00EA"];
-            $('.navigation a').mouseenter(function() {
-                var rand = colors[Math.floor(Math.random() * colors.length)];
-                $(this).css('color', rand);
-            });
-            $('.navigation a').mouseleave(function() {
-                $(this).css('color', '');
-            });
-        </script>
-        <footer>
-            <p>&copy; 2018 DJ Nick Webpage</p>
-        </footer>
-        </div>
-    </body>
+        <hr class="staticrypt-hr">
+
+        <form id="staticrypt-form" action="#" method="post">
+            <input id="staticrypt-password"
+                   type="password"
+                   name="password"
+                   placeholder="password"
+                   autofocus/>
+
+            <input type="submit" class="staticrypt-decrypt-button" value="LOGIN"/>
+        </form>
+    </div>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></script>
+
+<script>
+
+    /**
+     * Decrypt a salted msg using a password.
+     * Inspired by https://github.com/adonespitogo
+     */
+    var keySize = 256;
+    var iterations = 1000;
+    function decrypt (encryptedMsg, pass) {
+        var salt = CryptoJS.enc.Hex.parse(encryptedMsg.substr(0, 32));
+        var iv = CryptoJS.enc.Hex.parse(encryptedMsg.substr(32, 32))
+        var encrypted = encryptedMsg.substring(64);
+
+        var key = CryptoJS.PBKDF2(pass, salt, {
+            keySize: keySize/32,
+            iterations: iterations
+        });
+
+        var decrypted = CryptoJS.AES.decrypt(encrypted, key, {
+            iv: iv,
+            padding: CryptoJS.pad.Pkcs7,
+            mode: CryptoJS.mode.CBC
+        }).toString(CryptoJS.enc.Utf8);
+        return decrypted;
+    }
+
+    document.getElementById('staticrypt-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        var passphrase = document.getElementById('staticrypt-password').value,
+            encryptedMsg = '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',
+            encryptedHMAC = encryptedMsg.substring(0, 64),
+            encryptedHTML = encryptedMsg.substring(64),
+            decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
+
+        if (decryptedHMAC !== encryptedHMAC) {
+            alert('Wrong password');
+            return;
+        }
+
+        var plainHTML = decrypt(encryptedHTML, passphrase);
+
+        document.write(plainHTML);
+        document.close();
+    });
+</script>
+</body>
 </html>
