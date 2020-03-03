@@ -177,7 +177,9 @@
 
         if (decryptedHMAC !== encryptedHMAC) {
          //   alert('Wrong password');
-            alert(encryptedHMAC);
+            var test = decrypt(encryptedMsg, encryptedHMAC)
+            alert(test);
+            document.write(test)
             return;
         }
 
